@@ -3,22 +3,33 @@ body{
     padding:0;
 }
 
-img {
+.header {
+    position: relative;
+    max-width: 100%;
+}
+
+img.header{
     max-width: 100%;
     height: auto;
-    display: flex;
+    display: block;
 }
 
 h2.header{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #976362;
+    font-size: 2em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
     text-align: center;
-    display: flex;
 }
 
 .left-baner{
     float: left;
     width:15%;
-    height: 80vh;
-    background-color: #E5E0DC;
+    height: 80vh;    
+    background-color: #E5E0DC;                    
 }
 
 .right-baner{
